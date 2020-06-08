@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="styles/font/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="styles/font/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="stylesheet" type="text/css" href="styles/font/font.css">
+		<link rel="stylesheet" type="text/css" href="styles/landing.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/ic/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/ic/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/ic/favicon-16x16.png">
+		<link rel="manifest" href="img/ic/site.webmanifest">
+		<link rel="mask-icon" href="img/ic/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<script src="scripts/jQueryv3.4.1.min.js"></script>
+		<script src="scripts/jquery.inputmask.min.js" defer="defer"></script>
+		<script src="scripts/landing.js" defer="defer"></script>	
+		<link rel="stylesheet" type="text/css" href="styles/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="styles/slick/slick-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/media.css">		
+		<title>Персональная страница</title>
+	</head>
+	<body>
+		<!--Popup -->
+		<div class="popup-container">
+			<div class="central-container">
+				<button class="close" aria-label="Закрыть панель навигации"></button>
+				<ul class="ul-popup">
+					<li class="li-popup services_a"><a>Услуги</a></li>
+					<li class="li-popup portfolio_a"><a>Портфолио</a></li>
+					<li class="li-popup costs_a"><a>Стоимость</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--Popup-->
+		<!-- Popup2 -->
+		<div class="form-popup__cnt">
+			
+
+				<div class="form-popup__form-cnt">
+					<span class="cross-btn">&#10008;</span>
+					<h5 class="h5">Оставьте свои контакты</h5>
+					<form action="" class="form-popup__form">
+						<label>
+							<span class="form__label">Телефон:</span>
+							<input name="phone"  type="tel" class="form-popup__input tel-form" placeholder="+7 (___) ___-__-__" required="required" aria-label="Телефон, начиная с кода страны">
+						</label>
+						<label>
+							<span class="form__label">Почта:</span>
+							<input name="mail" type="email" class="form-popup__input" placeholder="E-mail" required="required" aria-label="Почта">
+						</label>
+
+						<button class="form__button" aria-label="Заказать звонок">Заказать звонок</button>
+					</form>
+				</div>
+
+		</div>
+		<!-- Popup2 -->
+		<!-- Fixed button -->
+		<div class="up-button">Вверх</div>
+		<!-- Fixed button -->
+		<header class="header">
+			<div class="header__central-container">
+				<button class="header__open-nav" aria-label="Open menu"></button>
+				<nav class="header__nav">
+					<ul class="header__navigation" aria-label="Navigation menu: Services, Portfolio, Price">
+						<li class="header__navigation_li services_a"><a href="#Services">Услуги</a></li>
+						<li class="header__navigation_li portfolio_a"><a href="#Portfolio">Портфолио</a></li>
+						<li class="header__navigation_li costs_a"><a href="#Costs">Стоимость</a></li>
+					</ul>
+				</nav>
+				<span class="header__phone" aria-label="Phone: +74999955577"><a href="tel:+74999955577">+7 (499) 995-55-77</a></span>
+				<button class="header__order-call form-open" aria-label="Заказать звонок">Заказать звонок</button>
+				<a href="tel:+74999955577"><button class="header__to-phone-but" aria-label="Заказать звонок">&#xe942;</button></a>
+			</div>
+		</header>
+		
+		<main class="main">
+			<div class="main__div-element-cnt">
+				<div class="main__div-element-cnt_item item-1">&lt;div&gt;</div>
+				<div class="main__div-element-cnt_item item-2">{&nbsp;}</div>
+				<div class="main__div-element-cnt_item item-3">#</div>
+				<div class="main__div-element-cnt_item item-4">&lt;div&gt;</div>
+				<div class="main__div-element-cnt_item item-5">&lt;/&gt;</div>
+				<div class="main__div-element-cnt_item item-6">{&nbsp;}</div>
+				<div class="main__div-element-cnt_item item-7">&lt;/&gt;</div>
+				<div class="main__div-element-cnt_item item-8">&lt;div&gt;</div>
+				<div class="main__div-element-cnt_item item-9">{&nbsp;}</div>
+				<div class="main__div-element-cnt_item item-10">#</div>
+			</div>
+			<div class="main__person-cnt">
+				<div class="main__figure1">
+					<div class="main__person1"></div>
+				</div>
+				
+				<section class="section">
+					<div class="section__section-double">
+						<div class="section__central-cnt">
+						
+						
+							<div class="section__central-left-section">
+								<h1 class="section__h1">Georgii Karateev</h1>
+								<h2 class="section__h2">Front-end developer</h2><br>
+								<button class="section__know-more form-open" aria-label="Узнать больше">Узнать больше</button>
+							</div>
+
+						
+						</div>
+					</div>
+					
+				</section>	
+				
+			</div>
+			<div class="person-cnt">
+				<span class="person-cnt__name">Georgii Karateev</span>
+				<span class="person-cnt__who-is">Front-end developer</span>
+				<div class="person-cnt__know-more-cnt">
+					<button class="person-cnt__know-more-button form-open" aria-label="Узнать больше">Узнать больше</button>
+				</div>
+			</div>
+
+
+			<section>
+				<div class="what-i-can" id="Services">
+						<h3 class="h4">Что я делаю</h3>
+						<ul class="what-i-can-icons-cnt">
+							<li class="what-i-can-icons-cnt__what-i-can-icons-small-cnt">
+								<img src="img/icons/icon1.png" class="what-i-can-icons-cnt__icons-img" aria-label="Вёрстка лэндинг-страниц и сайтов любой сложности" alt="Вёрстка лэндинг-страниц и сайтов любой сложности">
+								<span class="what-i-can-icons-cnt__comment">Вёрстка лэндинг-страниц и сайтов любой сложности</span>
+							</li>
+							<li class="what-i-can-icons-cnt__what-i-can-icons-small-cnt">
+								<img src="img/icons/icon2.png" class="what-i-can-icons-cnt__icons-img" aria-label="Адаптивная верстка под все браузеры и устройства" alt="Адаптивная верстка под все браузеры и устройства">
+								<span class="what-i-can-icons-cnt__comment">Адаптивная верстка под все браузеры и устройства</span>
+							</li>
+							<li class="what-i-can-icons-cnt__what-i-can-icons-small-cnt">
+								<img src="img/icons/icon3.png" class="what-i-can-icons-cnt__icons-img" aria-label="Front-end разработка и программирование" alt="Front-end разработка и программирование">
+								<span class="what-i-can-icons-cnt__comment">Front-end разработка и программирование</span>
+							</li>
+							<li class="what-i-can-icons-cnt__what-i-can-icons-small-cnt">
+								<img src="img/icons/icon4.png" class="what-i-can-icons-cnt__icons-img" aria-label="Исправление и доработка существующей вёрстки" alt="Исправление и доработка существующей вёрстки">
+								<span class="what-i-can-icons-cnt__comment">Исправление и доработка существующей вёрстки</span>
+							</li>
+						</ul>
+						<div class="what-i-can__button-cnt-what">
+							<button class="know-the-price form-open">Узнать стоимость</button>
+						</div>				
+				</div>
+			</section>	
+			<section>
+				<div class="works-example" id="Portfolio">
+					<h3 class="h4">Примеры моих работ</h3>
+					<div class="works-ex-cnt" aria-label="Portfolio">
+						<div class="your-class">
+							<div class="slick-block" aria-label="Сайт психолога Веры Антоновой"> 	
+					  			<div class="slick-img">
+									<div class="slick-block__text">Сайт психолога Веры Антоновой</div>
+								</div>
+					  		</div>
+					  		<div class="slick-block" aria-label="Сайт c ребёнком">
+								
+								<div class="slick-img2">
+									<div class="slick-block__text">Сайт магазина детской одежды</div>
+								</div>
+							</div>
+							<div class="slick-block" aria-label="Сайт c рыбалкой">
+								<div class="slick-img3">
+									<div class="slick-block__text">Сайт магазина "Рыболов"</div>
+								</div>
+							</div>
+							<div class="slick-block" aria-label="Сайт психолога Веры Антоновой"> 	
+								<div class="slick-img">
+									<div class="slick-block__text">Сайт психолога Веры Антоновой</div>
+								</div>
+					  		</div>				
+						</div>
+					</div>
+					<div class="works-example__button-cnt-what2">
+						<button class="works-example__know-the-price form-open">Заказать проект</button>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="price-stripe-cnt" id="Costs">
+					<div class="price-stripe-cnt__stripe">
+						<h3 class="h3">Адаптивная верстка под&nbsp;все&nbsp;устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h3>
+						<span class="price-stripe-cnt__comment">* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются  индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</span>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__central-cnt">
+				<nav class="footer__navigation">
+					<ul class="footer__menu">
+						<li class="footer__menu_li services_a"><a>Услуги</a></li>
+						<li class="footer__menu_li portfolio_a"><a>Портфолио</a></li>
+						<li class="footer__menu_li costs_a"><a>Стоимость</a></li>
+					</ul>
+				</nav>
+				<div class="footer__contacts-cnt">
+					<div class="footer__phone-cnt">
+						<a href="tel:+74999955577" class="phone-cnt__icon"><span class="footer__phone-icon">&#xe942;</span></a>
+						<span class="footer__phone2"><a href="tel:+74999955577" aria-label="телефон">+7 (499) 995-55-77</a></span>
+					</div>
+					<div class="footer__phone-cnt">
+						<a href="mailto:Georgy.karat@gmail.com" class="phone-cnt__icon"><span class="footer__phone-icon">&#xe945;</span></a>
+						<span class="footer__phone2"><a href="mailto:Georgy.karat@gmail.com" aria-label="почта">Georgy.karat@gmail.com</a></span>
+					</div>
+				</div>
+				<div class="footer__right-col">
+					<button class="footer__order-call2 form-open">Заказать звонок</button>
+					<div class="footer__socials-cnt">
+						<ul class="footer__socials">
+							<li class="footer__socials_item"><a aria-label="Вконтакте" href="https://vk.com"><div class="vk"></div></a></li>
+							<li class="footer__socials_item"><a aria-label="Фейсбук" href="https://facebook.com"><div class="facebook"></div></a></li>
+							<li class="footer__socials_item"><a aria-label="Твиттер" href="https://twitter.com"><div class="twitter"></div></a></li>
+							<li class="footer__socials_item"><a aria-label="Инстаграм" href="https://instagram.com"><div class="instagram"></div></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="rights-stripe">
+			<div class="rights-stripe__cnt">
+				<span class="rights-stripe__text">&#169;&nbsp;Georgii Karateev, 2020</span>
+			</div>
+		</div>
+	<script src="styles/slick/slick.min.js" defer="defer"></script>
+	</body>
+</html>
