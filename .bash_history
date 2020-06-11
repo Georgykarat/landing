@@ -20,3 +20,13 @@ git remote add origin https://github.com/Georgykarat/landing.git
 git push -u origin master
 cd .git
 cat > .htaccess
+ll
+git status
+git diff .bash_history
+git add .
+git commit -m "test + htaccess"
+git push -u origin master
+ll
+mc
+ll
+mc
